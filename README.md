@@ -29,3 +29,17 @@ where we use the `[84,2,12]` configuration. The `Tensor encoded quantum circuit 
 
 Due to the huge dimension of the KAN in the previous picture the `activation function` is in between the input and the output layers the activation functions are not visible. Hence in the following illustration, we explicitly show the trend of the `activation function` of the trained KAN
 ![The learned nerwotk](pics/2q_activation_function.png)
+
+If you find our repository useful please cite it as:
+
+```
+@misc{kanqas_code,
+  author = {Akash Kundu},
+  title = {{KANQAS GitHub}},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/Aqasch/KANQAS_code}},
+  commit = {}
+}}
+```
