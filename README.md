@@ -41,13 +41,14 @@ pip install tqdm
 pip install pandas
 ```
 
-Phew you are done now! Ypu are ready to go! So explore and exploit the possibilities with KANQAS!
+Phew, you are done now! You are ready to go! So explore and exploit the possibilities with KANQAS!
 ## We run the noiseless/noisy experiments with:
+MLP
 ```
 python main.py --seed 1 --config 2q_bell_state_seed1 --experiment_name "DDQN/"
 ```
 
-for MLP and for KAN
+and KAN
 ```
 python main.py --seed 1 --config 2q_bell_state_seed1 --experiment_name "KAQN/"
 ```
