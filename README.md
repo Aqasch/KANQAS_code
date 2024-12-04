@@ -1,5 +1,9 @@
 # KANQAS
-In this code, which compliments our [KANQAS](https://scirate.com/arxiv/2406.17630), we provide the code that opens up the possibility of harnessing Kolmogorov-Arnold Network for Quantum Architecture Search i.e., namely KANQAS
+
+In this code, which compliments our [KANQAS](https://epjquantumtechnology.springeropen.com/articles/10.1140/epjqt/s40507-024-00289-z), we provide the code that opens up the possibility of harnessing Kolmogorov-Arnold Network for Quantum Architecture Search i.e., namely KANQAS.
+
+# Update on KANQAS:
+KANQAS is now published ([here](https://epjquantumtechnology.springeropen.com/articles/10.1140/epjqt/s40507-024-00289-z)) in Springer Nature's EPJ Quantum Technology. We added experiments for quantum chemistry that are not yet uploaded to the git but soon will be!
 
 ## Before running the code!
 The code was used on Ubuntu GNU/Linux 22.04.4 LTS (64-bit).
@@ -13,7 +17,7 @@ conda activate kanqas
 ```
 
 ## If the above does not work :(
-It is recommended to make your own environment using (please check [managing envioenments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) for details):
+It is recommended to make your own environment using (please check [managing environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) for details):
 ```
 conda create --name <name-of-your-environment>
 ```
@@ -21,7 +25,7 @@ then
 ```
 conda activate <name-of-your-environment>
 ```
-and after install pip
+and after installing pip
 ```
 conda install pip
 ```
@@ -32,7 +36,7 @@ pip install torch
 pip install qiskit-aer
 pip install pykan
 ```
-please note that `pykan` module itself inherently requires some specific softwares to run. Hence, after `pykan` you install the following:
+please note that `pykan` module itself inherently requires some specific software to run. Hence, after `pykan` you install the following:
 ```
 pip install scikit-learn
 pip install pyyaml
