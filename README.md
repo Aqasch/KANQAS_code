@@ -3,7 +3,20 @@
 In this code, which compliments our [KANQAS](https://epjquantumtechnology.springeropen.com/articles/10.1140/epjqt/s40507-024-00289-z), we provide the code that opens up the possibility of harnessing Kolmogorov-Arnold Network for Quantum Architecture Search i.e., namely KANQAS.
 
 # Update on KANQAS:
-KANQAS is now published ([here](https://epjquantumtechnology.springeropen.com/articles/10.1140/epjqt/s40507-024-00289-z)) in Springer Nature's EPJ Quantum Technology. We added experiments for quantum chemistry that are not yet uploaded to the git but soon will be!
+KANQAS is now published ([here](https://epjquantumtechnology.springeropen.com/articles/10.1140/epjqt/s40507-024-00289-z)) in Springer Nature's EPJ Quantum Technology. We added experiments for quantum chemistry that are not yet uploaded to the git but soon will be! If you want to cite our work please use:
+
+```
+@article{kundu2024kanqas,
+  title={Kanqas: Kolmogorov-arnold network for quantum architecture search},
+  author={Kundu, Akash and Sarkar, Aritra and Sadhu, Abhishek},
+  journal={EPJ Quantum Technology},
+  volume={11},
+  number={1},
+  pages={76},
+  year={2024},
+  publisher={Springer Berlin Heidelberg}
+}
+```
 
 ## Before running the code!
 The code was used on Ubuntu GNU/Linux 22.04.4 LTS (64-bit).
