@@ -1,5 +1,6 @@
 # KANQAS
 
+![KANQAS](pics/kanqas.png)
 In this code, which compliments our [KANQAS](https://epjquantumtechnology.springeropen.com/articles/10.1140/epjqt/s40507-024-00289-z), we provide the code that opens up the possibility of harnessing Kolmogorov-Arnold Network for Quantum Architecture Search i.e., namely KANQAS.
 
 # Update on KANQAS:
@@ -85,7 +86,7 @@ The MLP part of the code is built using the [RL-VQE code agent](https://github.c
 
 # To study the interpretability of KANs
 As a motivation for future work towards the interpretability of KAN, we illustrate trained KAN in constructing Bell state
-![The learned nerwotk](pics/the_network_after_training_bell_state.png)
+![The learned nerwork](pics/the_network_after_training_bell_state.png)
 where we use the `[84,2,12]` configuration. The `Tensor encoded quantum circuit as input to KAN` contains 84 entries because the quantum circuit is encoded into $D\times (N\times(N+5))$ dimension tensor, where $D=6$ corresponds to maximum depth. For more details, please check our [paper](https://scirate.com/arxiv/2406.17630). We can see that not all the neurons actively contribute to the choice of action, defined as `Quantum gates as output of KAN`.
 
 
